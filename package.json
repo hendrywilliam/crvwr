@@ -1,8 +1,8 @@
 {
-    "name": "crv",
+    "name": "crvwr",
     "version": "1.0.0",
     "private": true,
-    "description": "A Probot app",
+    "description": "A poor man's code reviewer that runs every pull request.",
     "author": "Hendri William",
     "license": "ISC",
     "homepage": "https://github.com//",
@@ -21,6 +21,7 @@
         "probot": "^13.4.5"
     },
     "devDependencies": {
+        "@biomejs/biome": "2.1.1",
         "@types/node": "^20.0.0",
         "nock": "^14.0.5",
         "smee-client": "^2.0.4",
